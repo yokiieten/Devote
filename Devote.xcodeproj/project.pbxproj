@@ -13,6 +13,16 @@
 		F108C349274E15CC008C725A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F108C348274E15CC008C725A /* Preview Assets.xcassets */; };
 		F108C34B274E15CC008C725A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F108C34A274E15CC008C725A /* Persistence.swift */; };
 		F108C34E274E15CC008C725A /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F108C34C274E15CC008C725A /* Devote.xcdatamodeld */; };
+		F108C357274E1778008C725A /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F108C354274E1778008C725A /* sound-ding.mp3 */; };
+		F108C358274E1778008C725A /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F108C355274E1778008C725A /* sound-rise.mp3 */; };
+		F108C359274E1778008C725A /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F108C356274E1778008C725A /* sound-tap.mp3 */; };
+		F1AA3F07274E5AED0003C879 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA3F06274E5AED0003C879 /* Constant.swift */; };
+		F1B02BBE274F70B0007DB2FA /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B02BBD274F70B0007DB2FA /* HideKeyboardExtension.swift */; };
+		F1B02BC0274F7BF8007DB2FA /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B02BBF274F7BF8007DB2FA /* BackgroundImageView.swift */; };
+		F1B02BC2274F81B4007DB2FA /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B02BC1274F81B4007DB2FA /* NewTaskItemView.swift */; };
+		F1B02BC4274F8CB7007DB2FA /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B02BC3274F8CB7007DB2FA /* BlankView.swift */; };
+		F1E80FE42750A959009F2925 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E80FE32750A959009F2925 /* ListRowItemView.swift */; };
+		F1FD12172750B18500C8C7A3 /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD12162750B18500C8C7A3 /* CheckboxStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,17 @@
 		F108C348274E15CC008C725A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F108C34A274E15CC008C725A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F108C34D274E15CC008C725A /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
+		F108C354274E1778008C725A /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		F108C355274E1778008C725A /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		F108C356274E1778008C725A /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		F1AA3F05274E19D20003C879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F1AA3F06274E5AED0003C879 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F1B02BBD274F70B0007DB2FA /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		F1B02BBF274F7BF8007DB2FA /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		F1B02BC1274F81B4007DB2FA /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		F1B02BC3274F8CB7007DB2FA /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		F1E80FE32750A959009F2925 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		F1FD12162750B18500C8C7A3 /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +76,15 @@
 		F108C340274E15CA008C725A /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				F1AA3F05274E19D20003C879 /* Info.plist */,
 				F108C341274E15CA008C725A /* DevoteApp.swift */,
-				F108C343274E15CA008C725A /* ContentView.swift */,
+				F108C35B274E17AF008C725A /* Views */,
 				F108C345274E15CC008C725A /* Assets.xcassets */,
-				F108C34A274E15CC008C725A /* Persistence.swift */,
-				F108C34C274E15CC008C725A /* Devote.xcdatamodeld */,
+				F1AA3F03274E18CB0003C879 /* Models */,
+				F108C35D274E17CF008C725A /* Style */,
+				F1AA3F04274E19110003C879 /* Utility */,
+				F108C35C274E17C0008C725A /* Extension */,
+				F108C35A274E1792008C725A /* Sound */,
 				F108C347274E15CC008C725A /* Preview Content */,
 			);
 			path = Devote;
@@ -71,6 +96,61 @@
 				F108C348274E15CC008C725A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F108C35A274E1792008C725A /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F108C354274E1778008C725A /* sound-ding.mp3 */,
+				F108C355274E1778008C725A /* sound-rise.mp3 */,
+				F108C356274E1778008C725A /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		F108C35B274E17AF008C725A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F108C343274E15CA008C725A /* ContentView.swift */,
+				F1B02BBF274F7BF8007DB2FA /* BackgroundImageView.swift */,
+				F1B02BC1274F81B4007DB2FA /* NewTaskItemView.swift */,
+				F1B02BC3274F8CB7007DB2FA /* BlankView.swift */,
+				F1E80FE32750A959009F2925 /* ListRowItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F108C35C274E17C0008C725A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1B02BBD274F70B0007DB2FA /* HideKeyboardExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F108C35D274E17CF008C725A /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				F1FD12162750B18500C8C7A3 /* CheckboxStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		F1AA3F03274E18CB0003C879 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F108C34A274E15CC008C725A /* Persistence.swift */,
+				F108C34C274E15CC008C725A /* Devote.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1AA3F04274E19110003C879 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F1AA3F06274E5AED0003C879 /* Constant.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F108C349274E15CC008C725A /* Preview Assets.xcassets in Resources */,
+				F108C358274E1778008C725A /* sound-rise.mp3 in Resources */,
 				F108C346274E15CC008C725A /* Assets.xcassets in Resources */,
+				F108C359274E1778008C725A /* sound-tap.mp3 in Resources */,
+				F108C357274E1778008C725A /* sound-ding.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +227,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F108C34B274E15CC008C725A /* Persistence.swift in Sources */,
+				F1B02BC0274F7BF8007DB2FA /* BackgroundImageView.swift in Sources */,
 				F108C344274E15CA008C725A /* ContentView.swift in Sources */,
+				F1B02BBE274F70B0007DB2FA /* HideKeyboardExtension.swift in Sources */,
+				F1B02BC4274F8CB7007DB2FA /* BlankView.swift in Sources */,
+				F1AA3F07274E5AED0003C879 /* Constant.swift in Sources */,
+				F1E80FE42750A959009F2925 /* ListRowItemView.swift in Sources */,
 				F108C34E274E15CC008C725A /* Devote.xcdatamodeld in Sources */,
 				F108C342274E15CA008C725A /* DevoteApp.swift in Sources */,
+				F1FD12172750B18500C8C7A3 /* CheckboxStyle.swift in Sources */,
+				F1B02BC2274F81B4007DB2FA /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +370,10 @@
 				DEVELOPMENT_TEAM = S723YCT5MN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,9 +400,10 @@
 				DEVELOPMENT_TEAM = S723YCT5MN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
